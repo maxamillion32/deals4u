@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="in.stallats.jengadeals.ReferActivity"
+    android:background="#ffffff">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="15dp" >
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Let your friends also experience a faster way to pay bills."
+                        android:id="@+id/textView41"
+                        android:textSize="20sp"
+                        android:textAlignment="center"
+                        android:textStyle="normal|bold"
+                        android:paddingLeft="50dp"
+                        android:paddingRight="50dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text="invite your friends and Earn up to Rs.5000/-"
+                        android:id="@+id/textView45"
+                        android:layout_marginTop="10dp" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical|center|center_horizontal"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/imageView4"
+                        android:src="@drawable/refer_friend_2"
+                        android:adjustViewBounds="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="false"
+                        android:layout_margin="5dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Share your Referral Code"
+                        android:id="@+id/textView42"
+                        android:textColor="@color/button_material_dark"
+                        android:layout_below="@+id/imageView4"
+                        android:layout_centerHorizontal="true" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="N09EDY"
+                        android:id="@+id/refer_code_share"
+                        android:textColor="@color/common_google_signin_btn_text_light_pressed"
+                        android:textSize="30dp"
+                        android:layout_below="@+id/textView42"
+                        android:layout_centerHorizontal="true"
+                        android:focusable="false"
+                        android:paddingTop="5dp" />
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Invite your friends to Jenga Deals using using your promo code and you both can earn 75% cashback on transaction amount capped at Rs.50 /-"
+                        android:id="@+id/textView44"
+                        android:textAlignment="center"
+                        android:textSize="16dp"
+                        android:layout_below="@+id/refer_code_share"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:padding="10dp"
+                        android:layout_marginTop="20dp" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="25dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Start Inviting Friends"
+                    android:id="@+id/textView28"
+                    android:textColor="@color/common_google_signin_btn_text_light_pressed"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical|center|center_horizontal"
+                    android:layout_weight="1"
+                    android:padding="12dp"
+                    android:layout_margin="5dp"
+                    android:focusable="false"
+                    android:focusableInTouchMode="true">
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical|center|center_horizontal"
+                    android:layout_weight="1"
+                    android:padding="8dp"
+                    android:layout_margin="5dp"
+                    android:elevation="5dp"
+                    android:focusable="false">
+
+                    <ImageView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/whatsapp"
+                        android:src="@drawable/whatsapp"
+                        android:adjustViewBounds="true" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical|center|center_horizontal"
+                    android:layout_weight="1"
+                    android:padding="8dp"
+                    android:layout_margin="5dp"
+                    android:elevation="5dp"
+                    android:focusable="false">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/facebook_logo"
+                        android:src="@drawable/facebook"
+                        android:adjustViewBounds="true" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical|center|center_horizontal"
+                    android:layout_weight="1"
+                    android:padding="8dp"
+                    android:layout_margin="5dp"
+                    android:elevation="5dp"
+                    android:focusable="false">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/email_share"
+                        android:src="@drawable/envelope"
+                        android:adjustViewBounds="true" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical|center|center_horizontal"
+                    android:layout_weight="1"
+                    android:padding="8dp"
+                    android:layout_margin="5dp"
+                    android:elevation="5dp"
+                    android:focusable="false">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/sms_share"
+                        android:src="@drawable/interface_msg"
+                        android:adjustViewBounds="true" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical|center|center_horizontal"
+                    android:layout_weight="1"
+                    android:padding="12dp"
+                    android:layout_margin="5dp"
+                    android:focusable="false" >
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

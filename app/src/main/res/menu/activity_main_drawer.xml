@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/group1" android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="HOME" />
+        <item
+            android:id="@+id/nav_map"
+            android:icon="@drawable/ic_menu_map"
+            android:title="MAP" />
+        <item
+            android:id="@+id/nav_account"
+            android:icon="@drawable/ic_account"
+            android:title="ACCOUNT" />
+        <item
+            android:id="@+id/nav_apps_linked"
+            android:icon="@drawable/ic_apps_linked"
+            android:title="APPS LINKED" />
+        <item
+            android:id="@+id/nav_payhistory"
+            android:icon="@drawable/ic_menu_payment_history"
+            android:title="PAYMENT HISTORY" />
+        <item
+            android:id="@+id/nav_favourites"
+            android:icon="@drawable/ic_favourites"
+            android:title="FAVOURITES" />
+    </group>
+
+    <group android:id="@+id/group2" android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_refer"
+            android:icon="@drawable/ic_refer"
+            android:title="REFER &amp; EARN" />
+        <item
+            android:id="@+id/nav_offers"
+            android:icon="@drawable/ic_offers"
+            android:title="OFFERS" />
+        <item
+            android:id="@+id/nav_rating"
+            android:icon="@drawable/ic_ratings"
+            android:title="RATE OUR APP" />
+    </group>
+
+</menu>

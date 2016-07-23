@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:outlineProvider="bounds"
+            android:id="@+id/shop_lsit"
+            android:elevation="3dp"
+            android:focusableInTouchMode="true"
+            android:layout_margin="10dp">
+
+            <LinearLayout
+                android:id="@+id/banner"
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="150dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/imageView2"
+                    android:src="@mipmap/banner"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FFF">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight=".15">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/imageView3"
+                        android:src="@mipmap/nologo"
+                        android:adjustViewBounds="true"
+                        android:scaleType="centerCrop"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:padding="5dp"
+                    android:background="#FFF"
+                    android:layout_weight="0.75">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Face care &amp; Body"
+                        android:id="@+id/textView98"
+                        android:textColor="#555"
+                        android:textSize="16dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Kukatpally, 6.0 km"
+                        android:id="@+id/textView100"
+                        android:textColor="#aaa"
+                        android:textStyle="bold|italic"
+                        android:typeface="sans"
+                        android:textSize="13dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text="Distance: , Rating: 4.2"
+                        android:id="@+id/distancetext"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".1"
+                    android:gravity="center_vertical">
+
+                    <ToggleButton
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:id="@+id/myToggleButton"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:textOn=""
+                        android:textOff=""
+                        android:checked="false" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+</LinearLayout>

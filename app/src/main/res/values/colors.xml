@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ff251a</color>
+    <color name="colorPrimaryDark">#d60c02</color>
+    <color name="colorAccent">#009688</color>
+    <color name="actionMenuTextColor">#009917</color>
+    <color name="common_signin_btn_dark_text_disabled">#AAA</color>
+    <color name="colorfortext">#C7C7C7</color>
+    <color name="coloraccent">#009688</color>
+    <color name="cast_libraries_material_featurehighlight_text_body_color">#FFF</color>
+
+    <drawable name="pressed_color">#FF0000</drawable> <!--custom color for pressed state -->
+    <drawable name="normal_color">#009688</drawable>
+</resources>

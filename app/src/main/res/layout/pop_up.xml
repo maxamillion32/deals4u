@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="in.stallats.deals.deal4u.ShopFullDeatilsActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/icon_close"
+            android:src="@android:drawable/ic_menu_close_clear_cancel" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorPrimary"
+        android:gravity="center_vertical|center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="SHOP NAME"
+            android:id="@+id/store_title"
+            android:textColor="#fff"
+            android:typeface="normal"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView5"
+        android:scrollbars="none"
+        android:background="#fff">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp" >
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/single_store_banner_popup"
+                        android:layout_gravity="center_vertical"
+                        android:src="@mipmap/banner"
+                        android:scaleType="fitXY" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="5dp">
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textAppearance="?android:attr/textAppearanceSmall"
+                                android:text="Enter Amount"
+                                android:id="@+id/textView"
+                                android:textColor="#333"
+                                android:layout_marginBottom="10dp"/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:descendantFocusability="beforeDescendants"
+                            android:focusableInTouchMode="true"
+                            android:gravity="center_horizontal">
+
+                            <EditText
+                                android:layout_width="200dp"
+                                android:layout_height="match_parent"
+                                android:background="@drawable/edit_text_design"
+                                android:inputType="numberDecimal"
+                                android:id="@+id/editText"
+                                android:ems="10"
+                                android:drawableLeft="@drawable/ic_rupee"
+                                android:textAlignment="center"
+                                android:textSize="30dp"
+                                android:paddingLeft="0dp"
+                                android:paddingTop="5dp"
+                                android:paddingRight="10dp"
+                                android:paddingBottom="5dp"
+                                android:hint="0.00"
+                                android:textColor="@color/colorPrimary"
+                                android:textColorHint="@color/colorPrimary"/>
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp">
+
+                    <RadioGroup
+                        android:id="@+id/radioGroup1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:layout_margin="0dp">
+
+                        <RadioButton
+                            android:id="@+id/radioAndroid"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/rbtn_selector"
+                            android:button="@null"
+                            android:checked="true"
+                            android:gravity="center"
+                            android:padding="10dp"
+                            android:text="Use promocode LAPP10 to get 10% cashback* (Maximum cashback of Rs.9999). COD option will not be available on applying this promocode. "
+                            android:textColor="@drawable/rbtn_textcolor_selector"
+                            android:layout_marginBottom="10dp"
+                            android:textAlignment="textStart" />
+
+                        <RadioButton
+                            android:id="@+id/radioiPhone"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/rbtn_selector"
+                            android:button="@null"
+                            android:gravity="center"
+                            android:padding="10dp"
+                            android:text="Use promocode LAPP10 to get 10% cashback* (Maximum cashback of Rs.9999). COD option will not be available on applying this promocode. "
+                            android:textColor="@drawable/rbtn_textcolor_selector"
+                            android:layout_marginBottom="10dp"
+                            android:textAlignment="textStart"
+                            android:checked="false" />
+
+                        <RadioButton
+                            android:id="@+id/radioWindows"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/rbtn_selector"
+                            android:button="@null"
+                            android:gravity="center"
+                            android:padding="10dp"
+                            android:text="Use promocode LAPP10 to get 10% cashback* (Maximum cashback of Rs.9999). COD option will not be available on applying this promocode. "
+                            android:textColor="@drawable/rbtn_textcolor_selector"
+                            android:layout_marginBottom="10dp"
+                            android:textAlignment="textStart"
+                            android:checked="false" />
+                    </RadioGroup>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:layout_marginBottom="20dp">
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="PAY NOW"
+                        android:background="@drawable/custom_button"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:width="200dp"
+                        android:textSize="18dp"
+                        android:layout_marginBottom="20dp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
