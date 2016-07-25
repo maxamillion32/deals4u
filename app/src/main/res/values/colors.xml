@@ -11,4 +11,6 @@
 
     <drawable name="pressed_color">#FF0000</drawable> <!--custom color for pressed state -->
     <drawable name="normal_color">#009688</drawable>
+    <color name="colortext">#100b20</color>
+    <color name="colorhint">#a9aaac</color>
 </resources>
